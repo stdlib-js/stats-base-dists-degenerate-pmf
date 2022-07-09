@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.pmf;
+})();
 })();
 </script>
 ```
@@ -112,6 +114,7 @@ y = mypmf( 12.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mu;
 var x;
@@ -125,6 +128,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( 'x: %d, µ: %d, P(X=x;µ): %d', x, mu, y );
 }
 
+})();
 })();
 </script>
 </body>
