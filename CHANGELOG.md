@@ -2,6 +2,62 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-01-18)
+
+<section class="features">
+
+### Features
+
+-   [`0f54105`](https://github.com/stdlib-js/stdlib/commit/0f54105c71aac4e8f188bda700ef98dc094c78d9) - add C implementation for `stats/base/dists/degenerate/pmf` [(#4586)](https://github.com/stdlib-js/stdlib/pull/4586)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3545](https://github.com/stdlib-js/stdlib/issues/3545)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`0f54105`](https://github.com/stdlib-js/stdlib/commit/0f54105c71aac4e8f188bda700ef98dc094c78d9) - **feat:** add C implementation for `stats/base/dists/degenerate/pmf` [(#4586)](https://github.com/stdlib-js/stdlib/pull/4586) _(by Karan Anand, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
