@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-05-30)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a3a900c`](https://github.com/stdlib-js/stdlib/commit/a3a900cc12d70440163c9a46a07cea796913e89e) - **docs:** replace manual `for` loop in examples [(#7123)](https://github.com/stdlib-js/stdlib/pull/7123) _(by Harsh)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`1fc3918`](https://github.com/stdlib-js/stdlib/commit/1fc3918810a556d2593f4ec8a0764dce88a519fc) - **bench:** refactor random number generation in `stats/base/dists/degenerate` [(#4862)](https://github.com/stdlib-js/stdlib/pull/4862) _(by Karan Anand)_
 -   [`0f54105`](https://github.com/stdlib-js/stdlib/commit/0f54105c71aac4e8f188bda700ef98dc094c78d9) - **feat:** add C implementation for `stats/base/dists/degenerate/pmf` [(#4586)](https://github.com/stdlib-js/stdlib/pull/4586) _(by Karan Anand, stdlib-bot)_
@@ -48,8 +49,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Harsh
 -   Karan Anand
 
 </section>
