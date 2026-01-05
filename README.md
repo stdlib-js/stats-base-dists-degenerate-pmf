@@ -119,7 +119,7 @@ var opts = {
 var x = discreteUniform( 100, 0, 5, opts );
 var mu = discreteUniform( 100, 0, 5, opts );
 
-logEachMap( 'x: %0.4f, µ: %0.4f, P(X=x;µ): %0.4f', x, mu, pmf );
+logEachMap( 'x: %d, µ: %d, P(X=x;µ): %0.4f', x, mu, pmf );
 ```
 
 </section>
@@ -256,7 +256,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -282,8 +282,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
