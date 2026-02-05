@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import pmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-degenerate-pmf/tags). For example,
+
+```javascript
 import pmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@v0.3.1-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@esm/index.mjs';
 ```
 
 #### pmf( x, mu )
@@ -104,7 +109,7 @@ y = mypmf( 12.0 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import pmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@v0.3.1-esm/index.mjs';
+import pmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pmf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
